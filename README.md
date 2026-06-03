@@ -42,7 +42,7 @@ Build a system that provides **Proactive Protection**:
   ---
 
 <p align="center">
-  <img src="diagram.jpg" alt="AntiPhishing general architecture flowchart" width="850" />
+  <img src="IOS-diagram.jpg" alt="AntiPhishing general architecture flowchart" width="850" />
 </p>
 
 ---
