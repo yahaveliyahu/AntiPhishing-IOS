@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Entitlements for the main AntiPhishing app target.
+  The App Group is the bridge to the Safari Web Extension (and the optional
+  Share Extension): the protection database, metadata and allowlist live in
+  this group's container. Must match AntiPhishingWebExtension.entitlements.
+-->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.ronyahav.antiphishing</string>
+	</array>
+</dict>
+</plist>

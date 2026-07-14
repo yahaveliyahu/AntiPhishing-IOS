@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Entitlements for the MAIN AntiPhishing app target.
+  Add this file under: target ▸ Signing & Capabilities ▸ + App Groups, then
+  Xcode wires it automatically. The group must match the Share Extension's.
+-->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>com.apple.security.application-groups</key>
+    <array>
+        <string>group.ronyahav.antiphishing</string>
+    </array>
+</dict>
+</plist>

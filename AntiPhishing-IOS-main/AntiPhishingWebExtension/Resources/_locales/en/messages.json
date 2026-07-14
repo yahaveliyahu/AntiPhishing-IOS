@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "AntiPhishing",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Blocks known phishing and malware sites using a protection database stored on your device. Page addresses are never sent to a server.",
+        "description": "Description of what the extension does."
+    }
+}

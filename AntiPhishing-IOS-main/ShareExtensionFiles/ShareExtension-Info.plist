@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ShareExtension-Info.plist
+
+  Use this as the Info.plist for the AntiPhishingShare extension target.
+  The activation rule makes "AntiPhishing" appear in the share sheet whenever
+  a single web URL or plain text is being shared.
+
+  NSExtensionPrincipalClass must point to the ShareViewController in this
+  extension's module (replace $(PRODUCT_MODULE_NAME) is handled automatically
+  by Xcode when you set the principal class in the target settings).
+-->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSExtension</key>
+    <dict>
+        <key>NSExtensionPointIdentifier</key>
+        <string>com.apple.share-services</string>
+        <key>NSExtensionPrincipalClass</key>
+        <string>$(PRODUCT_MODULE_NAME).ShareViewController</string>
+        <key>NSExtensionAttributes</key>
+        <dict>
+            <key>NSExtensionActivationRule</key>
+            <dict>
+                <key>NSExtensionActivationSupportsWebURLWithMaxCount</key>
+                <integer>1</integer>
+                <key>NSExtensionActivationSupportsText</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
+</dict>
+</plist>
